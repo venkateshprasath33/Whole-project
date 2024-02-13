@@ -1,0 +1,11 @@
+.forget{
+    width: 30%;
+    height: 45%;
+    border: 2px dashed black;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-left: 10%;
+}
+.forget button{
+    margin-left: 15%;
+}

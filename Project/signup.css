@@ -1,0 +1,26 @@
+*{
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/bg.png);
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box; 
+}
+form{
+    max-width: 20%;
+    border: 1px solid black;
+    border-radius: 25px; 
+    padding: 20px 2%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+h5{
+    margin-left: 50%;
+}
+
+button{
+    max-width:  100%;
+    align-items: center;
+}

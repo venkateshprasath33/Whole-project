@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>SignUp</title>
+    <script src="signup.js"></script>
+</head>
+<body>
+        <div class="col">
+            <form name="na">
+                <h1>Sign Up</h1>
+                <h4>Create your account</h4>
+                <div class="form-group">
+                <input type="text" id="uname" placeholder="Enter your name" class="form-control" name="me">
+                <p id="name" style="color: red;"></p>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email" class="form-control" placeholder="Enter your email" name="m">
+                    <p id="mail" style="color: red;"></p>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password" placeholder=" Enter password" name="e">
+                    <p id="demo" style="color: red;"></p>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="confirm" placeholder="Reenter password" name="s">
+                    <p id="demo1" style="color: red;"></p>
+                </div>
+                
+
+                <button class="btn btn-danger" onclick="return validation()">Sign Up</button>
+                <h5>or</h5>
+                <button class="btn btn-danger">Sign In With Google</button>
+                <p>Already have an account? <a href="signin.html">Login</a></p>
+            </form>
+        </div>     
+</body>
+</html>

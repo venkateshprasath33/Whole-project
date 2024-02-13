@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <title>signin</title>
+    <script src="signin.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <img src="img/wel.jpeg" alt="welcome image">
+        </div>
+       <div class="col"> 
+            
+            <form name="na" onsubmit="return validation()">
+                <h1>Welcome Back</h1>
+                <h4>Enter your credental to login</h4>
+                <div class="form-group">
+                    <input name="me" type="text" placeholder="username" class="form-control" id="username">
+                    <p id="demo" style="color: red;"></p>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="m" placeholder="password" class="form-control" id="password">
+                    <p id="dem" style="color: red;"></p>
+                </div>
+                <button class="btn btn-danger"><a href="home.html">Sign In</a></button>
+                <h5>or</h5>
+                <h6><a href="forget.html">Forget password?</a></h6>
+                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </form>
+        
+        </div>
+    </div>
+</body>
+</html>
